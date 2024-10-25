@@ -1,10 +1,10 @@
 let images = document.querySelectorAll('.slider img');
-let currentIndex = 0;
+let currentSLideIndex = 0;
 
 function autoSlide() {
-  images[currentIndex].classList.remove('active');
-  currentIndex = (currentIndex + 1) % images.length;
-  images[currentIndex].classList.add('active');
+  images[currentSLideIndex].classList.remove('active');
+  currentSLideIndex = (currentSLideIndex + 1) % images.length;
+  images[currentSLideIndex].classList.add('active');
   setTimeout(autoSlide, 3000);
 }
 autoSlide();

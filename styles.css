@@ -36,12 +36,10 @@
     display: block;
   }
 
+ 
+
 .hero .content{
-    margin-top: 35rem;
-    margin-bottom: 5rem;
-    margin-left: 8rem;
-    margin-right: 5rem;
-  
+    margin: 35rem 5rem 5rem 8rem;  
  }
 
 .content{
@@ -399,7 +397,8 @@ header .content .text-content span {
     margin-top: 3rem;
     /* padding: 2rem 8rem 0rem; */
     line-height: 1.6rem;
-    nav ul li{ 
+    nav ul li{
+    text-align: center;
     list-style: none;
     }
     a{
@@ -438,8 +437,8 @@ color: var(--primary-color-gray);
     color:#1C9CEA
 }
 
-
   
+
 
 
 
