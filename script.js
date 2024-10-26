@@ -20,3 +20,12 @@ window.addEventListener('scroll', () => {
     }
   });
 });
+
+document.querySelectorAll('.navbar li').forEach((li) => {
+  li.addEventListener('mouseover', () => {
+    li.querySelector('.submenu').style.display = 'block';
+  });
+  li.addEventListener('mouseout', () => {
+    li.querySelector('.submenu').style.display = 'none';
+  });
+});
