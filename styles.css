@@ -87,6 +87,7 @@
 nav .links li {
     list-style: none;
     margin: 0 15px;
+    position: relative;
 }
 
 .links li a {
@@ -105,6 +106,33 @@ nav .links li {
     height: 40px;
     width: 220px;
 }
+
+.submenu {
+    width: 15vw;
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    line-height: 2rem;
+  }
+  
+  .submenu li {
+    margin-bottom: 10px;
+  }
+  
+  .submenu a {
+    color: #666;
+    font-size: 14px;
+  }
+  
+  .navbar li:hover .submenu {
+    display: block;
+  }
+  
+
 
 .search-box input[type="text"] {
     position: absolute;
