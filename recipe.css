@@ -8,13 +8,12 @@ body {
   background-color: beige;
 }
 
-.step{
+.step {
   background-color: #f89334;
   color: white;
   padding: 10px 50px 180px 50px;
   line-height: 26px;
   width: 130%;
-  
 }
 
 .directions {
