@@ -39,7 +39,7 @@ The Challenges we faced include;
 
 ### Links
 
-- Solution URL: [https://nudarmediaworld.github.io/landingpage/index.html](https://your-solution-url.com)
+- Solution URL: [https://nudarmediaworld.github.ioindex.html](https://your-solution-url.com)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process

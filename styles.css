@@ -471,22 +471,32 @@ footer {
 @media only screen and (max-width: 768px) {
     .slider {
       margin-top: 2rem;
+      margin-left: 3rem;
     }
   
     .slider img {
       height: 200px;
+      width: 100%;
+    }
+
+    .hero-text{
+      display:none;
+      opacity:0;
     }
   
     .hero .content {
-      margin: 15rem 2rem 2rem 2rem;
+      margin: 17rem 2rem 2rem 5rem;
     }
   
     .nav-fixed {
+    
       padding: 15px;
+      margin-bottom: 50px;
+      margin-left: 1rem;
     }
   
     .navbar {
-      flex-direction: column;
+      flex-direction: row;
       padding: 0;
     }
   
@@ -495,13 +505,13 @@ footer {
     }
   
     .navbar .links {
-      flex-direction: column;
+      flex-direction: row;
       align-items: center;
     }
   
     .navbar .search-box {
-      width: 100%;
-      margin-top: 1rem;
+      width: 5%;
+      margin-top: 0rem;
     }
   
     .submenu {
@@ -516,7 +526,7 @@ footer {
   
     .text-content .sub-text {
       width: 90%;
-      font-size: 14px;
+      font-size: 18px;
     }
   
     .button button {
@@ -526,17 +536,21 @@ footer {
   
     .popular-container,
     .cuisine-type {
-      padding: 1rem;
+      width: 100%;
+      padding-left: 1rem;
+      padding-bottom: 3rem;
+      margin-left: 3rem;      
     }
   
     .popular-container h2,
     .cuisine-type h2 {
+      width: 70%;
       font-size: 1.5rem;
     }
   
     .popular-container p,
     .cuisine-type p {
-      width: 90%;
+      width: 80%;
     }
   
     .popular-flex {
@@ -544,8 +558,9 @@ footer {
     }
   
     .food-card {
+      align-items: center;
       width: 80%;
-      margin: 10px 0;
+      margin: 10px 30px;
     }
   
     .food-card h4 {
@@ -568,12 +583,24 @@ footer {
   
     .news-letter-txt p {
       width: 90%;
+      margin-left: 2rem;
     }
-  
+
+    .news-letter-txt .button{
+      margin-bottom: 3rem;
+    }
+
+    .specialty img {
+      width: 100%;
+    }
+
+    .specialty .img {
+     opacity: 0;
+    }
+    
     footer {
       flex-direction: column;
       padding: 1rem;
-      margin-top: 5rem;
     }
   }
   

@@ -325,6 +325,7 @@
 
   .sec-bg {
     padding: 3rem 1rem;
+    width: 100vw;
   }
 
   .sec-bg2 {
@@ -361,4 +362,11 @@
     padding: 0.5rem 1.5rem;
   }
 
+  #img-chef{
+    margin-top: -2rem;
+    margin-left: 3rem;
+    width: 60%;
   }
+
+  }
+  
