@@ -13,61 +13,61 @@ document.addEventListener("DOMContentLoaded", function() {
 
     if (exploreRecipesBtn) {
         exploreRecipesBtn.addEventListener("click", function() {
-            window.location.href = "Recipe-App/hamburger.html"; 
+            window.location.href = "/landingpage/hamburger.html"; 
         });
     }
 
     if (joinNewsBtn) {
         joinNewsBtn.addEventListener("click", function() {
-            window.location.href = "Recipe-App/404.html"; 
+            window.location.href = "/landingpage/404.html"; 
         });
     }
 
     if (chocoRecipeBtn) {
         chocoRecipeBtn.addEventListener("click", function() {
-            window.location.href = "Recipe-App/recipe-choco.html";
+            window.location.href = "/landingpage/recipe-choco.html";
         });
     }
 
     if (jollofRecipeBtn) {
         jollofRecipeBtn.addEventListener("click", function() {
-            window.location.href = "Recipe-App/recipe-jollof.html"; 
+            window.location.href = "/landingpage/recipe-jollof.html"; 
         });
     }
 
     if (chickenRecipeBtn) {
         chickenRecipeBtn.addEventListener("click", function() {
-            window.location.href = "Recipe-App/recipe-chicken.html"; 
+            window.location.href = "/landingpage/recipe-chicken.html"; 
         });
     }
 
     if (lasagnaRecipeBtn) {
         lasagnaRecipeBtn.addEventListener("click", function() {
-            window.location.href = "Recipe-App/recipe-lasagna.html"; 
+            window.location.href = "/landingpage/recipe-lasagna.html"; 
         });
     }
 
     if (egusiRecipeBtn) {
         egusiRecipeBtn.addEventListener("click", function() {
-            window.location.href = "Recipe-App/recipe-egusi.html"; 
+            window.location.href = "/landingpage/recipe-egusi.html"; 
         });
     }
 
     if (burgerRecipeBtn) {
        burgerRecipeBtn.addEventListener("click", function() {
-            window.location.href = "Recipe-App/recipe-burger.html"; 
+            window.location.href = "/landingpage/recipe-burger.html"; 
         });
     }
 
     if (backHomeBtn) {
       backHomeBtn.addEventListener("click", function() {
-           window.location.href = "Recipe-App/index.html"; 
+           window.location.href = "/landingpage/index.html"; 
        });
    }
 
    if (exploreDishesBtn) {
     exploreDishesBtn.addEventListener("click", function() {
-         window.location.href = "Recipe-App/lasagna.html"; 
+         window.location.href = "/landingpage/lasagna.html"; 
      });
  }
     
@@ -85,26 +85,26 @@ document.addEventListener("DOMContentLoaded", function() {
 
 let pages = [
   {
-    url: "Recipe-App/index.html#popular-sec",
+    url: "/landingpage/index.html#popular-sec",
     title: "Home",
     content: "Welcome to our website. Learn about our recipes",
   },
 
   {
-    url: "Recipe-App/index.html#hero",
+    url: "/landingpage/index.html#hero",
     title: "Home",
     content: "Cook Like a Pro With Our Easy And Tasty Recipes",
   },
 
   {
-    url: "Recipe-App/index.html#hero",
+    url: "/landingpage/index.html#hero",
     title: "Home",
     content:
       "From quick and easy meals to gourment delights, we have something for every taste and occasions.",
   },
 
   {
-    url: "Recipe-App/index.html#popular-sec",
+    url: "/landingpage/index.html#popular-sec",
     title: "Home",
     content: `"Popular Recipes You Can't Miss. From comfort food classics to exoctic flavors, our featured recipes are sure to impress. 
         Egusi Soup
@@ -125,7 +125,7 @@ Indulge in the rich, velvety goodness of our decadent chocolate cake, crafted wi
   },
 
   {
-    url: "Recipe-App/index.html#cuisine-type",
+    url: "/landingpage/index.html#cuisine-type",
     title: "Home",
     content: `
 Explore by Cuisine Type. From comfort food classics to exoctic flavors, our featured recipes are sure to impress. Chips Salad Learn how to make this type of cold salad that belongs to American cuisine. It's a savory and crunchy dish typically made with potato chips, mayonnaise...
@@ -144,14 +144,14 @@ Slice beef like a pro! Master the art of precision cutting, just like world reco
   },
 
   {
-    url: "Recipe-App/index.html#news",
+    url: "/landingpage/index.html#news",
     title: "Home",
     content: `Join Our Newsletter. Discover new flavors and cooking techniques when you subscribe to our weekly newsletter.`,
   },
 
   //  ABOUT US
   {
-    url: "Recipe-App/about-us.html#specialty-txt",
+    url: "/landingpage/about-us.html#specialty-txt",
     title: "About Us",
     content: `We are specialized in Spicy Modern Fusion Food
 Welcome to Your Virtual Kitchen
@@ -162,7 +162,7 @@ Step into Your Virtual Kitchen, explore our menu, featuring mouth-watering signa
 - Team 5 Master Chef`,
   },
   {
-    url: "Recipe-App/about-us.html#choose-us",
+    url: "/landingpage/about-us.html#choose-us",
     title: "Why Choose Us",
     content: `FREE COOKING GUIDE
 Whether you're a beginner or an experienced chef, this guide will help you master the art of cooking and impress your family and friends.
@@ -176,13 +176,13 @@ AWESOME RECIPES
 Each dish is carefully crafted with love and packed with flavor. From classic comfort foods to innovative twists, our recipes are sure to delight your taste buds.`,
   },
   {
-    url: "Recipe-App/about-us.html#gallery",
+    url: "/landingpage/about-us.html#gallery",
     title: "Our Expert Chefs",
     content: `Our Expert Chefs blending traditional flavors and ingredients in awesome cuisines`,
   },
   
   {
-    url: "Recipe-App/hamburger.html",
+    url: "/landingpage/hamburger.html",
     title: "Hamburger info",
     content: `Tasty Hamburger
 A staple of American cuisine
@@ -195,7 +195,7 @@ Nutritional Value: Calories: 350 Protein: 30g | Fat: 20g | Saturated Fat: 8g | C
   },
 
   {
-    url: "Recipe-App/crispy-chicken.html",
+    url: "/landingpage/crispy-chicken.html",
     title: "crispy chicken info",
     content: `Crispy Chicken
 Chicken Palooza
@@ -208,7 +208,7 @@ Nutritional Value: Calories: 320 | Protein: 25g | Fat: 18g | Saturated Fat: 4g |
   },
 
   {
-    url: "Recipe-App/choco.html",
+    url: "/landingpage/choco.html",
     title: "Chocolate cake info",
     content: `Chocolate
 Choco Choco
@@ -221,7 +221,7 @@ Nutritional Value: Calories: 120 | Fat: 9g | Saturated Fat: 5g | Cholesterol: 10
   },
 
   {
-    url: "Recipe-App/egusi.html",
+    url: "/landingpage/egusi.html",
     title: "Egusi soup info",
     content: `Egusi Soup
 Mama's Soup - traditional Nigerian cuisine
@@ -234,7 +234,7 @@ Nutritional Value: Calories: 450 | Protein: 35g | Fat: 25g | Carbohydrates: 20g 
   },
 
   {
-    url: "Recipe-App/lasagna.html",
+    url: "/landingpage/lasagna.html",
     title: "Lasagna info",
     content: `Lasagna
 The Italian Layered Love
@@ -247,7 +247,7 @@ Nutritional Value: Calories: 350 | Protein: 25g | Fat: 15g | Carbohydrates: 25g 
   },
 
   {
-    url: "Recipe-App/lasagna.html",
+    url: "/landingpage/lasagna.html",
     title: "Lasagna info",
     content: `Lasagna
 The Italian Layered Love
@@ -260,7 +260,7 @@ Nutritional Value: Calories: 350 | Protein: 25g | Fat: 15g | Carbohydrates: 25g 
   },
 
   {
-    url: "Recipe-App/jollof.html",
+    url: "/landingpage/jollof.html",
     title: "Jollof Rice info",
     content: `Party Jollof Rice + Chicken
 For Healthy Life
@@ -273,7 +273,7 @@ Nutritional Value: Calories | Carbs |Protein`,
   },
 
   {
-    url: "Recipe-App/recipe-burger.html",
+    url: "/landingpage/recipe-burger.html",
     title: "Hamburger reciper",
     content: `INGREDIENTS
 1 pound ground beef 80/20 or 70/30 lean to fat ratio, 1 medium onion, finely chopped.
@@ -290,7 +290,7 @@ Fresh pepper`,
   },
 
   {
-    url: "Recipe-App/recipe-chicken.html",
+    url: "/landingpage/recipe-chicken.html",
     title: "Crispy chicken recipe",
     content: `INGREDIENTS
 2 cups uncooked long-grain rice
@@ -310,7 +310,7 @@ Fresh pepper`,
   },
 
   {
-    url: "Recipe-App/recipe-choco.html",
+    url: "/landingpage/recipe-choco.html",
     title: "Chocolate cake recipe",
     content: `INGREDIENTS
 2 1/ 4 cups all purpose flour
@@ -327,7 +327,7 @@ Fresh pepper`,
   },
 
   {
-    url: "Recipe-App/recipe-egusi.html",
+    url: "/landingpage/recipe-egusi.html",
     title: "Egusi soup recipe",
     content: `INGREDIENTS
 1 cup ground melon seed
@@ -344,7 +344,7 @@ Fresh pepper`,
   },
 
   {
-    url: "Recipe-App/recipe-jollof.html",
+    url: "/landingpage/recipe-jollof.html",
     title: "Jollof rice recipe",
     content: `INGREDIENTS
 2 cups uncooked long-grain rice
@@ -365,7 +365,7 @@ Fresh pepper`,
 
 
   {
-    url: "Recipe-App/recipe-lasagna.html",
+    url: "/landingpage/recipe-lasagna.html",
     title: "Lasagna recipe",
     content: `INGREDIENTS
 1 pound ground beef
