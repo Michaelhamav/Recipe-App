@@ -5,7 +5,7 @@ function autoSlide() {
   images[currentSLideIndex].classList.remove('active');
   currentSLideIndex = (currentSLideIndex + 1) % images.length;
   images[currentSLideIndex].classList.add('active');
-  setTimeout(autoSlide, 7000);
+  setTimeout(autoSlide, 3000);
 }
 autoSlide();
 
